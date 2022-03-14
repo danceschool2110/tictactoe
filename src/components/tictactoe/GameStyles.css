@@ -1,0 +1,41 @@
+.game-board{
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 25px;
+}
+
+.game-cell{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+}
+.game-cell.is-x{
+    color: green;
+}
+.game-cell.is-o{
+    color: red;
+}
+.game-winner{
+    font-size:18px;
+    padding: 10px;
+    color:rgb(245, 11, 167);
+    font-weight: 700;
+}
+.game-reset{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(84, 84, 233);
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
