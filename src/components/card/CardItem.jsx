@@ -63,7 +63,7 @@ const CardFooter = styled.div`
 const CardTitle = styled.h3`
   font-size: 18px;
   font-weight: 500;
-  color: black;
+  color: ${props => props.theme.colors};;
 `;
 const CardNumber = styled.span`
     font-size: 18;
