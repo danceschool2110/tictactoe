@@ -7,7 +7,6 @@ const getRandomPhotos = async (page) => {
             .get(`https://picsum.photos/v2/list?page=${page}&limit=8`);
         return response.data;
     } catch (error) {
-        // handle error
         console.log(error);
     }
 }

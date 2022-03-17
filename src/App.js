@@ -7,7 +7,7 @@ import './index.css'
 import {GlobalStyles} from './GlobalStyles'
 import Photos from './components/photo/Photos';
 import HackerNews from './components/news/HackerNews';
-
+import HackerNews2 from './components/news/HackerNews2';
 // import {ThemeProvider} from 'styled-components';
 function App() {
   // const theme = {
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
         {/* <GlobalStyles></GlobalStyles> */}
         {/* <Photos></Photos> */}
-      <HackerNews></HackerNews>
+      <HackerNews2></HackerNews2>
 
 
       {/* <ThemeProvider theme = {theme}>
